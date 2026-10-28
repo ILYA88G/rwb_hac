@@ -1,0 +1,54 @@
+BEGIN
+SET
+SET
+SET
+DO
+LOCK TABLE
+DO
+CREATE SCHEMA
+psql:<stdin>:60: NOTICE:  schema "core" already exists, skipping
+CREATE TABLE
+psql:<stdin>:65: NOTICE:  relation "customers" already exists, skipping
+psql:<stdin>:74: NOTICE:  relation "customer_profiles" already exists, skipping
+CREATE TABLE
+psql:<stdin>:81: NOTICE:  relation "sellers" already exists, skipping
+CREATE TABLE
+CREATE TABLE
+psql:<stdin>:88: NOTICE:  relation "categories" already exists, skipping
+CREATE TABLE
+psql:<stdin>:100: NOTICE:  relation "products" already exists, skipping
+CREATE TABLE
+psql:<stdin>:111: NOTICE:  relation "orders" already exists, skipping
+CREATE TABLE
+psql:<stdin>:123: NOTICE:  relation "order_items" already exists, skipping
+CREATE TABLE
+psql:<stdin>:132: NOTICE:  relation "order_payments" already exists, skipping
+psql:<stdin>:145: NOTICE:  relation "order_reviews" already exists, skipping
+CREATE TABLE
+DO
+TRUNCATE TABLE
+INSERT 0 96096
+INSERT 0 99441
+INSERT 0 3095
+INSERT 0 74
+INSERT 0 32951
+INSERT 0 99441
+INSERT 0 112650
+INSERT 0 103886
+INSERT 0 99224
+ANALYZE
+ANALYZE
+ANALYZE
+ANALYZE
+ANALYZE
+ANALYZE
+ANALYZE
+ANALYZE
+ANALYZE
+CREATE SCHEMA
+psql:<stdin>:341: NOTICE:  schema "mart" already exists, skipping
+CREATE VIEW
+CREATE VIEW
+psql:<stdin>:505: NOTICE:  PASS: source counts, money, statuses, keys and report grain
+DO
+COMMIT

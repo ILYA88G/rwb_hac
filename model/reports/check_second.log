@@ -1,0 +1,29 @@
+BEGIN
+psql:<stdin>:36: NOTICE:  PASS: all supplied controls and known edge cases
+DO
+      entity       |  rows  
+-------------------+--------
+ categories        |     74
+ customer_profiles |  99441
+ customers         |  96096
+ mart.order_totals |  99441
+ mart.sales_items  | 110197
+ order_items       | 112650
+ order_payments    | 103886
+ order_reviews     |  99224
+ orders            |  99441
+ products          |  32951
+ sellers           |   3095
+(11 rows)
+
+ delivered_orders |   revenue   | average_check | average_rows | average_units 
+------------------+-------------+---------------+--------------+---------------
+            96478 | 13221498.11 |        159.88 |     1.142198 |      1.142198
+(1 row)
+
+ sent_before_purchase | received_before_sent | canceled_with_delivery 
+----------------------+----------------------+------------------------
+                  166 |                   23 |                      6
+(1 row)
+
+COMMIT

@@ -1,0 +1,14 @@
+BEGIN
+         source_table         |  rows  |           content_md5            
+------------------------------+--------+----------------------------------
+ customers                    |  99441 | 6bbe6d71429101eec02d434e9ff57473
+ order_items                  | 112650 | d554f7f94f05d27d13b5c9f09331ab98
+ order_payments               | 103886 | 552468bc05f4c8f869d7552a7e728bfb
+ order_reviews                |  99224 | c83ccc11a912343d80d5c49f711daeb5
+ orders                       |  99441 | ed6d9c6bc9bbe3b4473320edc3ad35e3
+ product_category_translation |     71 | 28346eebcf0708950b6e76d9c08503b7
+ products                     |  32951 | c2579c6b85e8280442e224e91d795d3b
+ sellers                      |   3095 | b0c74688cc5436b75c9ef0bb613813e5
+(8 rows)
+
+COMMIT
